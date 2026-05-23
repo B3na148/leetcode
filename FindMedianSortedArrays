@@ -1,0 +1,16 @@
+#Note: this is my first hard level leetcode problem solved by myslef (i tought it would be harder...) (maybe it was easy because python is great idk)
+class Solution:
+    def findMedianSortedArrays(self, nums1: List[int], nums2: List[int]) -> float:
+        combined = nums1 + nums2
+        combined.sort()
+        nm = len(combined)
+        
+        if nm % 2 == 0:
+            mid = nm // 2
+            total = (combined[mid] + combined[mid - 1]) / 2
+        else:
+            mid = nm // 2
+            total = combined[mid]
+
+
+        return total
