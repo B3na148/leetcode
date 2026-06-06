@@ -1,6 +1,5 @@
 class Solution:
     """
-    Time Complexity: O(n) - We iterate through the length n twice.
     Note: this is mathematically the optimal solution.
     """
     def getHappyString(self, n: int, k: int) -> str:
