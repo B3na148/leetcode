@@ -1,4 +1,4 @@
 # leetcode
-showing the code of my leetcode solutions.
+showing some leetcode solutions.
 
-note: i will upload code to here only if its an interesting solution.
+note: i will show only interesting solutions here.
